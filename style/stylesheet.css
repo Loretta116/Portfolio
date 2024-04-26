@@ -22,6 +22,8 @@ Body {
 ul { 
     display: flex;
     justify-content: space-evenly;
+   list-style-type: none;
+   
 }
 
 #pretty-bar {  
@@ -33,4 +35,36 @@ ul {
 #about {    
     background-color: #FBDBE9;
     height: 365px;
+   
+}
+
+#list {
+    background: round #C9799E ;
+    height: 45px;
+    width: 125px;
+}
+
+#art {
+    background-color: #FBDBE9;
+    height: 770px;
+    margin-top: 36px;
+    
+}
+
+#PinkAbout{
+    background-color: #C9799E;
+    width: 229px ;
+   
+    text-align: center;
+    padding-top: 150px;
+   padding-bottom: 178px;
+
+}
+
+#ArtTitle {
+    background-color: #C9799E;
+    height: inherit;
+    width: 229px;
+    padding-top: 150px;
+    
 }
