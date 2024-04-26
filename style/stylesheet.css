@@ -1,0 +1,36 @@
+#top-bar {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #FBDBE9 ;
+    height: 157px;
+    margin: none ;
+}
+
+Body {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    background-color: #F8EDE8;
+}
+
+#main-container {
+    background-color: #F8EDE8;
+    width: 1024px;
+    height: 3000px;
+    border: solid 1px black;
+}
+
+ul { 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#pretty-bar {  
+    height: 217px;
+   border: 1px solid black;
+   margin-bottom: 85px;
+}
+
+#about {    
+    background-color: #FBDBE9;
+    height: 365px;
+}
