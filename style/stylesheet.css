@@ -1,8 +1,10 @@
 #top-bar {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #FBDBE9 ;
-    height: 157px;
+    height: 160px;
     margin: none ;
+    padding: 0%;
+    
 }
 
 Body {
@@ -17,6 +19,8 @@ Body {
     width: 1024px;
     height: 3000px;
     border: solid 1px black;
+    margin: none;
+    padding: none;
 }
 
 ul { 
@@ -42,9 +46,13 @@ ul {
     background: round #C9799E ;
     height: 45px;
     width: 125px;
+    margin: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
 }
 
-#art {
+#writing {
     background-color: #FBDBE9;
     height: 770px;
     margin-top: 36px;
@@ -67,4 +75,25 @@ ul {
     width: 229px;
     padding-top: 150px;
     
+}
+
+#works {
+    height: 777px;
+    width: 1024px;
+    background-color: #FBDBE9;
+}
+
+#contact {
+    height: 257px;
+    background-color: #FBDBE9;
+    width: 1024px;
+}
+
+#Squares {
+    background-color: #C9799E;
+    width: 229px ;
+    height: 157px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
 }
