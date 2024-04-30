@@ -1,10 +1,7 @@
 #top-bar {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #FBDBE9 ;
     height: 160px;
-    margin: none ;
-    padding: 0%;
-    
+   border-top: solid #FBDBE9 10px;
 }
 
 Body {
@@ -12,6 +9,12 @@ Body {
     display: flex;
     justify-content: center;
     background-color: #F8EDE8;
+        font-family: "acumin-variable",sans-serif;
+        font-variation-settings: 'wght' 700, 'wdth' 100, 'slnt' 0;
+        src: url(https://fonts.adobe.com/fonts/acumin-variable?vf-instance=Bold&vf-font-size=100&vf-font=AcuminVF);
+        font: large;
+        color: white;
+        
 }
 
 #main-container {
@@ -28,6 +31,10 @@ ul {
     justify-content: space-evenly;
    list-style-type: none;
    
+}
+
+li:hover {
+ color: #FBDBE9;
 }
 
 #pretty-bar {  
