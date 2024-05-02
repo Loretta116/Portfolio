@@ -2,6 +2,8 @@
     background-color: #FBDBE9 ;
     height: 160px;
    border-top: solid #FBDBE9 10px;
+   display: grid;
+   grid-template-columns: [first] 173px [line2] 861px;
 }
 
 Body {
@@ -29,7 +31,10 @@ ul {
     display: flex;
     justify-content: space-evenly;
    list-style-type: none;
-   
+   /* border: black solid 5px; */
+   width: 851px;
+   margin-top: 40px;
+
 }
 
 li:hover {
@@ -45,7 +50,14 @@ li:hover {
 #about {    
     background-color: #FBDBE9;
     height: 365px;
-   
+
+}
+
+#words {
+    display: grid;
+    grid-template-columns: [first] 300px [line2] 300px;
+    margin-left: 350px;
+    background-color: #C9799E;
 }
 
 #list {
@@ -106,4 +118,5 @@ li:hover {
 
 #logo {
     margin-left: 10px;
+    /* border: black solid 5px; */
 }
