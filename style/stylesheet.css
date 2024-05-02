@@ -14,7 +14,6 @@ Body {
         src: url(https://fonts.adobe.com/fonts/acumin-variable?vf-instance=Bold&vf-font-size=100&vf-font=AcuminVF);
         font: large;
         color: white;
-        
 }
 
 #main-container {
@@ -103,4 +102,8 @@ li:hover {
     display: flex;
     justify-content: center;
     padding-top: 100px;
+}
+
+#logo {
+    margin-left: 10px;
 }
