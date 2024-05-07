@@ -52,7 +52,7 @@ li:hover {
     height: 365px;
     justify-content: space-evenly;
     display: grid;
-    grid-template-columns: [first] 229px [line2] 300px [Line3] 300px;
+    grid-template-columns: [first] 300px [line2] 300px [Line3] 300px;
 }
 
 #words {
@@ -64,7 +64,7 @@ li:hover {
     width: 300px;
     background-color: #C9799E;
     border: black solid 5px;
-  
+  /* position: relative; left: 200px; bottom: 300px; */
 }
 
 #list {
