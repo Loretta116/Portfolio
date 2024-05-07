@@ -50,14 +50,21 @@ li:hover {
 #about {    
     background-color: #FBDBE9;
     height: 365px;
-
+    justify-content: space-evenly;
+    display: grid;
+    grid-template-columns: [first] 229px [line2] 300px [Line3] 300px;
 }
 
 #words {
-    display: grid;
-    grid-template-columns: [first] 300px [line2] 300px;
-    margin-left: 350px;
+    /* display: grid;
+    grid-template-columns: [first] 100px [line2] 100px;
+    grid-template-rows: 100px ; */
+    display: flex;
+    height: 216px;
+    width: 300px;
     background-color: #C9799E;
+    border: black solid 5px;
+  
 }
 
 #list {
