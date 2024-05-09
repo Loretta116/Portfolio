@@ -95,7 +95,7 @@ li:hover {
     margin-top: 36px;
     display: grid;
     grid-template-columns: [First] 300px [Line2] 300px [Line3] 300px;
-    grid-template-rows: [row1-start] 300px [row2-start] auto;
+    grid-template-rows: [row1-start] 300px [row2-start] 300px;
 }
 
 #quotes {
@@ -103,12 +103,13 @@ li:hover {
     background-color: #C9799E;
     width: fit-content;
     padding: 5px;
+    margin: 10px;
 }
 
 #PinkAbout{
     background-color: #C9799E;
     width: 229px ;
-   
+
     text-align: center;
     padding-top: 150px;
    padding-bottom: 178px;
@@ -142,6 +143,15 @@ li:hover {
 }
 
 #PinkAboutMe {
+    background-color: #C9799E;
+    width: 229px ;
+   position: relative; top: -22px;
+    text-align: center;
+    padding-top: 150px;
+   padding-bottom: 178px;
+   }
+
+   #PinkAboutWriting {
     background-color: #C9799E;
     width: 229px ;
    position: relative; top: -22px;
