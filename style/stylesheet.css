@@ -50,22 +50,34 @@ li:hover {
 #about {    
     background-color: #FBDBE9;
     height: 365px;
-    justify-content: space-evenly;
-    display: grid;
-    grid-template-columns: [first] 300px [line2] 300px [Line3] 300px;
+    /* justify-content: space-evenly; */
+        display: grid; 
+        grid-template-rows: auto;
+        grid-template-columns: [First] auto [Line2] auto [Line3] auto;
+
 }
 
 #words {
-    /* display: grid;
-    grid-template-columns: [first] 100px [line2] 100px;
-    grid-template-rows: 100px ; */
     display: flex;
-    height: 216px;
+    height: 280px;
+    width: 305px;
+    background-color: #C9799E;
+    border: black solid 5px;
+    padding-left: 5px;
+}
+
+
+#wordstwo {
+    display: flex;
+    height: 150px;
     width: 300px;
     background-color: #C9799E;
     border: black solid 5px;
-  /* position: relative; left: 200px; bottom: 300px; */
+    padding: 10px;
+    position: relative; top: 50px;
+
 }
+
 
 #list {
     background: round #C9799E ;
@@ -81,7 +93,16 @@ li:hover {
     background-color: #FBDBE9;
     height: 770px;
     margin-top: 36px;
-    
+    display: grid;
+    grid-template-columns: [First] 300px [Line2] 300px [Line3] 300px;
+    grid-template-rows: [row1-start] 300px [row2-start] auto;
+}
+
+#quotes {
+    height: fit-content; 
+    background-color: #C9799E;
+    width: fit-content;
+    padding: 5px;
 }
 
 #PinkAbout{
@@ -94,13 +115,6 @@ li:hover {
 
 }
 
-#ArtTitle {
-    background-color: #C9799E;
-    height: inherit;
-    width: 229px;
-    padding-top: 150px;
-    
-}
 
 #works {
     height: 777px;
@@ -125,5 +139,13 @@ li:hover {
 
 #logo {
     margin-left: 10px;
-    /* border: black solid 5px; */
 }
+
+#PinkAboutMe {
+    background-color: #C9799E;
+    width: 229px ;
+   position: relative; top: -22px;
+    text-align: center;
+    padding-top: 150px;
+   padding-bottom: 178px;
+   }
