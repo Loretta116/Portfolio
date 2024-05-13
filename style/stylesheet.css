@@ -170,7 +170,9 @@ li:hover {
 }
 
 #Art {
-margin: 50px;
+
+border: #C9799E solid 10px;
+
 
 }
 
@@ -179,8 +181,10 @@ margin: 50px;
     width: 1024px;
     background-color: #FBDBE9;
     margin-top: 36px;
-    display: grid;
-    grid-template-columns: [First] 300px [Line2] 400px [Line3] 400px;
-    grid-template-rows: [row1-start] 400px [row2-start] 300px [row3-start] 100px;
 
+    display: grid;
+  grid-template-columns: [First] 300px [Line2] 400px [Line3] 400px ;
+    grid-template-rows: [row1-start] 400px [row2-start] 300px ;
+ 
 }
+
