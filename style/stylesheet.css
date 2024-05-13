@@ -94,34 +94,31 @@ li:hover {
     height: 770px;
     margin-top: 36px;
     display: grid;
-    grid-template-columns: [First] 300px [Line2] 300px [Line3] 300px;
-    grid-template-rows: [row1-start] 300px [row2-start] 300px;
+    grid-template-columns: [First] 300px [Line2] 350px [Line3] 350px;
+    grid-template-rows: [row1-start] 300px [row2-start] 250px [row3-start] 100px;
 }
 
 #quotes {
     height: fit-content; 
     background-color: #C9799E;
     width: fit-content;
-    padding: 5px;
-    margin: 10px;
+    padding: 20px;
+    margin: 40px;
+    margin-top: 60px;
 }
 
 #PinkAbout{
     background-color: #C9799E;
     width: 229px ;
-
     text-align: center;
     padding-top: 150px;
    padding-bottom: 178px;
-
+    position: relative;
+    top: -22px;
 }
 
 
-#works {
-    height: 777px;
-    width: 1024px;
-    background-color: #FBDBE9;
-}
+
 
 #contact {
     height: 257px;
@@ -159,3 +156,31 @@ li:hover {
     padding-top: 150px;
    padding-bottom: 178px;
    }
+
+   #ViewMore {
+    background-color: #C9799E;
+    width: 500px;
+    height: 50px;
+    padding: 30px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    justify-content: center;
+    /* padding-top: 30px; */
+}
+
+#Art {
+margin: 50px;
+
+}
+
+#works {
+    height: 777px;
+    width: 1024px;
+    background-color: #FBDBE9;
+    margin-top: 36px;
+    display: grid;
+    grid-template-columns: [First] 300px [Line2] 400px [Line3] 400px;
+    grid-template-rows: [row1-start] 400px [row2-start] 300px [row3-start] 100px;
+
+}
