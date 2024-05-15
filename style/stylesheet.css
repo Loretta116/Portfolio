@@ -124,6 +124,17 @@ li:hover {
     height: 257px;
     background-color: #FBDBE9;
     width: 1024px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px ;
+}
+
+#contactinfo {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    border: black solid 2px;
+    justify-content: center;
 }
 
 #Squares {
@@ -172,7 +183,7 @@ li:hover {
 #Art {
 
 border: #C9799E solid 10px;
-
+margin: 20px;
 
 }
 
@@ -181,10 +192,23 @@ border: #C9799E solid 10px;
     width: 1024px;
     background-color: #FBDBE9;
     margin-top: 36px;
-
     display: grid;
   grid-template-columns: [First] 300px [Line2] 400px [Line3] 400px ;
     grid-template-rows: [row1-start] 400px [row2-start] 300px ;
+/* grid-template-columns:[First] 500px [Line2] 400px ; */
  
+}
+#Ring{
+    border: #C9799E solid 10px;
+margin: 50px;
+position: relative;
+left: 180px;
+}
+
+#Photoshop {
+    border: #C9799E solid 10px;
+margin: 50px;
+position: relative;
+left: 60px;
 }
 
