@@ -22,12 +22,12 @@ Body {
     background-color: #F8EDE8;
     width: 1024px;
     height: 3000px;
-    border: solid 1px black;
+    /* border: solid 1px black; */
     margin: none;
     padding: none;
 }
 
-ul { 
+#jumps { 
     display: flex;
     justify-content: space-evenly;
    list-style-type: none;
@@ -37,14 +37,18 @@ ul {
 
 }
 
-li:hover {
- color: #FBDBE9;
+a:hover {
+ color: #94A16F ;
 }
+
+ a {
+    color: #FBDBE9;
+ }
 
 #pretty-bar {  
     height: 217px;
-   border: 1px solid black;
-   margin-bottom: 85px;
+   /* border: 1px solid black; */
+   margin-bottom: 25px;
 }
 
 #about {    
@@ -52,18 +56,20 @@ li:hover {
     height: 365px;
     /* justify-content: space-evenly; */
         display: grid; 
-        grid-template-rows: auto;
+        grid-template-rows: 300px;
         grid-template-columns: [First] auto [Line2] auto [Line3] auto;
-
+ 
 }
 
 #words {
     display: flex;
-    height: 280px;
+    height: 300px;
     width: 305px;
     background-color: #C9799E;
-    border: black solid 5px;
+    /* border: black solid 5px; */
     padding-left: 5px;
+    padding-top: 15px;
+
 }
 
 
@@ -72,7 +78,7 @@ li:hover {
     height: 150px;
     width: 300px;
     background-color: #C9799E;
-    border: black solid 5px;
+    /* border: black solid 5px; */
     padding: 10px;
     position: relative; top: 50px;
 
@@ -122,25 +128,35 @@ li:hover {
     height: 257px;
     background-color: #FBDBE9;
     width: 1024px;
-    border: black 1px solid;
+    /* border: black 1px solid; */
     margin-top: 20px ;
     display: grid;
     grid-template-columns: [First]229px [line2] 795px;
-    
+    list-style-type: none;
 
 }
 
 #contactinfo {
     height:257px;
-    width: 500px;
+    width: 650px;
     display: flex;
-    border: black solid 2px;
+    /* border: black solid 2px; */
  justify-content: center ;
     justify-self: center;
     /* justify-content: space-between; */
-    padding-top: 40px;
+  
     margin-top: 0px;
 
+}
+
+.contactinfo {
+    margin: 15px;
+}
+
+#contacts {
+    list-style-type: none;
+
+   
 }
 
 #Squares {
