@@ -93,6 +93,7 @@ a:hover {
     display: flex;
     justify-content: center;
     padding-top: 20px;
+    border: #94A16F 1px solid;
 }
 
 #writing {
