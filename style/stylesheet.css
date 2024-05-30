@@ -38,18 +38,42 @@ Body {
 }
 
 a:hover {
- color: #94A16F ;
+ color: #ffffff ;
 }
 
  a {
     color: #FBDBE9;
  }
 
-#pretty-bar {  
-    height: 217px;
-   /* border: 1px solid black; */
-   margin-bottom: 25px;
-}
+ #Titlee {
+    justify-content: center;
+    display: flex;
+        width: 1024px;
+        position: relative;
+    /* bottom: -60px; */
+    background-image: url(/imgs/IMG_1014.JPG);
+    background-size: 1024px;
+    height: 160px;  
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+ }
+
+ #title {
+    width: 450px;
+    height: 80px;
+    background-color:#C9799E;
+    display: flex; 
+    padding-top: 15px;
+    /* padding-bottom: 5px; */
+   justify-content: center;
+   /* font-family:cursive; */
+   font-family: serif   ;
+   font-size: 55px;
+   position: relative;
+   top: -30px;
+ }
 
 #about {    
     background-color: #FBDBE9;
@@ -69,7 +93,7 @@ a:hover {
     /* border: black solid 5px; */
     padding-left: 5px;
     padding-top: 15px;
-    border: #94A16F 1px solid;
+   
 }
 
 
@@ -81,7 +105,7 @@ a:hover {
     /* border: black solid 5px; */
     padding: 10px;
     position: relative; top: 50px;
-    border: #94A16F 1px solid;
+    
 }
 
 
@@ -93,7 +117,7 @@ a:hover {
     display: flex;
     justify-content: center;
     padding-top: 20px;
-    border: #94A16F 1px solid;
+ 
 }
 
 #writing {
@@ -110,9 +134,20 @@ a:hover {
     background-color: #C9799E;
     width: fit-content;
     padding: 20px;
-    margin: 40px;
+    margin-right: 42px;
     margin-top: 60px;
-    border: #94A16F 1px solid;
+
+    
+}
+
+#quote {
+    height: fit-content; 
+    background-color: #C9799E;
+    width: fit-content;
+    padding: 20px;
+    margin-right: 60px;
+    margin-top: 60px;
+    margin-left: -16px;
 }
 
 #PinkAbout{
@@ -210,7 +245,7 @@ a:hover {
 margin: 20px;
 background-size: 800px;
 border: #C9799E 5px solid;
-outline: #94A16F 1px solid;
+
 }
 
 #works {
@@ -227,7 +262,7 @@ outline: #94A16F 1px solid;
 }
 #Ring{
     border: #C9799E 5px solid;
-    outline: #94A16F 1px solid;
+
 margin: 50px;
 position: relative;
 left: 180px;
@@ -238,6 +273,6 @@ margin: 50px;
 position: relative;
 left: 60px;
 border: #C9799E 5px solid;
-outline: #94A16F 1px solid;
+
 }
 
