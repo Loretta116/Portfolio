@@ -81,7 +81,7 @@ a:hover {
     /* justify-content: space-evenly; */
         display: grid; 
         grid-template-rows: 300px;
-        grid-template-columns: [First] auto [Line2] auto [Line3] auto;
+        grid-template-columns: [First] 280px [Line2] 380px [Line3] 200px;
  
 }
 
@@ -125,7 +125,7 @@ a:hover {
     height: 770px;
     margin-top: 36px;
     display: grid;
-    grid-template-columns: [First] 300px [Line2] 350px [Line3] 350px;
+    grid-template-columns: [First] 280px [Line2] 380px [Line3] 300px;
     grid-template-rows: [row1-start] 300px [row2-start] 250px [row3-start] 100px;
 }
 
@@ -134,7 +134,7 @@ a:hover {
     background-color: #C9799E;
     width: fit-content;
     padding: 20px;
-    margin-right: 40px;
+    margin-right: 35px;
     margin-top: 60px;
 
     
@@ -145,7 +145,7 @@ a:hover {
     background-color: #C9799E;
     width: fit-content;
     padding: 20px;
-    margin-right: 42px;
+    margin-right: 45px;
     margin-top: 60px;
 
     
@@ -156,9 +156,9 @@ a:hover {
     background-color: #C9799E;
     width: fit-content;
     padding: 20px;
-    margin-right: 60px;
+    margin-right: 50px;
     margin-top: 60px;
-    margin-left: -16px;
+    /* margin-left: -16px; */
 }
 
 #PinkAbout{
@@ -257,30 +257,36 @@ border: #C9799E 5px solid;
 
 }
 
+
+#Rainbow {
+    margin: 20px;
+    background-size: 800px;
+    border: #C9799E 5px solid;
+    margin-top: 50px;
+    }
+
 #works {
     height: 777px;
     width: 1024px;
     background-color: #FBDBE9;
     margin-top: 36px;
     display: grid;
-  grid-template-columns: [First] 300px [Line2] 400px [Line3] 400px ;
-    grid-template-rows: [row1-start] 400px [row2-start] 300px ;
-/* grid-template-columns:[First] 500px [Line2] 400px ; */
+  /* grid-template-columns: [First] 300px [Line2] 400px [Line3] 400px ;
+    grid-template-rows: [row1-start] 400px [row2-start] 300px ; */
+    grid-template-columns: [First] 260px [Line2] 380px [Line3] 300px;
+    grid-template-rows: [row1-start] 45 0px [row2-start] 400px;
 
- 
+    
 }
 #Ring{
     border: #C9799E 5px solid;
-
-margin: 50px;
 position: relative;
-left: 180px;
+left: 20px;
 }
 
 #Photoshop {
-margin: 50px;
 position: relative;
-left: 60px;
+left: 19px;
 border: #C9799E 5px solid;
 
 }
