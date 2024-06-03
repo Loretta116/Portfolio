@@ -51,7 +51,7 @@ a:hover {
         width: 1024px;
         position: relative;
     /* bottom: -60px; */
-    background-image: url(/imgs/IMG_1014.JPG);
+    background-image: url(../imgs/IMG_1014.JPG);
     background-size: 1024px;
     height: 160px;  
     margin-top: 15px;
@@ -130,6 +130,17 @@ a:hover {
 }
 
 #quotes {
+    height: fit-content; 
+    background-color: #C9799E;
+    width: fit-content;
+    padding: 20px;
+    margin-right: 40px;
+    margin-top: 60px;
+
+    
+}
+
+#quoted {
     height: fit-content; 
     background-color: #C9799E;
     width: fit-content;
@@ -237,9 +248,7 @@ a:hover {
     margin-bottom: 50px;
     margin-top: 50px;
     justify-content: center;
-    /* padding-top: 30px; */
-    border: #94A16F 1px solid;
-}
+   }
 
 #Art {
 margin: 20px;
